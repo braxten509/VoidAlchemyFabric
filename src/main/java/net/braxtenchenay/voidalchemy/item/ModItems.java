@@ -1,11 +1,13 @@
 package net.braxtenchenay.voidalchemy.item;
 
 import net.braxtenchenay.voidalchemy.VoidAlchemy;
+import net.braxtenchenay.voidalchemy.block.ModBlocks;
 import net.braxtenchenay.voidalchemy.item.custom.GlimmerOfHopeItem;
 import net.braxtenchenay.voidalchemy.item.custom.SupernaturalStrengthItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -37,6 +39,16 @@ public class ModItems {
 
     public static final Item GLIMMER_OF_HOPE = registerItem("glimmer_of_hope",
             new GlimmerOfHopeItem(new FabricItemSettings().group(ModItemGroup.VOID_DUST)));
+
+    public static final Item GABE_PEPPER_SEEDS = registerItem("gabe_pepper_seeds",
+            new AliasedBlockItem(ModBlocks.GABE_PEPPER_CROP,
+                    new FabricItemSettings().group(ModItemGroup.VOID_DUST)));
+
+    public static final Item GABE_PEPPER = registerItem("gabe_pepper",
+            new Item(new FabricItemSettings().group(ModItemGroup.VOID_DUST)
+                    .food(new FoodComponent.Builder().hunger(10).saturationModifier(10f)
+                            .statusEffect(new StatusEffectInstance(StatusEffects.WITHER,80,1), 0.8f)
+                            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED,120,1), 1.0f).build())));
 
 
     private static Item registerItem(String name, Item item) {

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "voidalchemy:block/failed_prototype"
+    },
+    "facing=south": {
+      "model": "voidalchemy:block/failed_prototype",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "voidalchemy:block/failed_prototype",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "voidalchemy:block/failed_prototype",
+      "y": 90
+    }
+  }
+}

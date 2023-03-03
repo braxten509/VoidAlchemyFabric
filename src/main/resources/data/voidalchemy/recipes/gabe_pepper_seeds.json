@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "voidalchemy:alchemical_dust"
+    },
+    "S": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ASA",
+    " A "
+  ],
+  "result": {
+    "item": "voidalchemy:gabe_pepper_seeds"
+  }
+}

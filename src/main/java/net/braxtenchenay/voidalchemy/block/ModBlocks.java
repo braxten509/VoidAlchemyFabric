@@ -1,11 +1,14 @@
 package net.braxtenchenay.voidalchemy.block;
 
 import net.braxtenchenay.voidalchemy.VoidAlchemy;
+import net.braxtenchenay.voidalchemy.block.custom.FailedPrototypeBlock;
 import net.braxtenchenay.voidalchemy.block.custom.ForlornStoneBlock;
+import net.braxtenchenay.voidalchemy.block.custom.GabePepperCropBlock;
 import net.braxtenchenay.voidalchemy.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
 import net.minecraft.block.OreBlock;
 import net.minecraft.item.BlockItem;
@@ -35,10 +38,21 @@ public class ModBlocks {
     public static final Block ENLIGHTENED_STONE = registerBlock("enlightened_stone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().luminance(15)), ModItemGroup.VOID_DUST);
 
+    public static final Block GABE_PEPPER_CROP = registerBlockWithoutItem("gabe_pepper_crop",
+            new GabePepperCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
+
+    public static final Block FAILED_PROTOTYPE = registerBlock("failed_prototype",
+            new FailedPrototypeBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()
+                    .nonOpaque()), ModItemGroup.VOID_DUST);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
+        return Registry.register(Registry.BLOCK, new Identifier(VoidAlchemy.MOD_ID, name), block);
+    }
+
+    private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(VoidAlchemy.MOD_ID, name), block);
     }
 
