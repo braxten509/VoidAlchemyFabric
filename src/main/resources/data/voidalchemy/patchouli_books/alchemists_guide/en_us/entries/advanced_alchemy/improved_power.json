@@ -1,0 +1,26 @@
+{
+    "name": "Improved Power",
+    "icon": "void_alchemy:arcamirus_stone",
+    "category": "advanced_alchemy",
+    "sortnum": 4,
+    "pages": [
+	{
+	    "type": "text",
+	    "text": "As you grow in power, you cannot stick with the simple old tools you had before, you must improve them for more practical and greater purposes! You must evolve your $(d)Apprentice's Stone$() into an $(bold)$(6)Arcamirus Stone$(), which is much more powerful! But first, you need to make alternate versions of $(d)Zorumite$()."
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:zorumite_of_strength",
+	    "recipe2": "void_alchemy:zorumite_of_light",
+	    "text": ""
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:arcamirus_stone",
+	    "text": "This stone holds great power! Shift-right-clicking it will allow you to change what the stone does when right-clicked at full power! Now it creates two $(d)Void Dust$() intead of one!"
+
+	}
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Voiding",
+    "icon": "minecraft:enchanted_book",
+    "category": "advanced_alchemy",
+    "sortnum": 7,
+    "pages": [
+	{
+	    "type": "spotlight",
+	    "item": "minecraft:enchanted_book",
+	    "text": "The $(bold)$(6)Voiding$() enchantment draws the powers from the void to grant you greater power. There is a 20% when attacking a mob that if you have an $(d)Apprentice's Stone$() or $(d)Arcamirus Stone$() in your inventory, that it will give you $(d)Void Energy$(), as well as give the enemy $(d)blindness$()."
+
+	},
+	{
+	    "type": "text",
+	    "text": "The higher the level the enchantment, the more energy you will gain from its powers."
+
+	}
+    ]
+}
+
+

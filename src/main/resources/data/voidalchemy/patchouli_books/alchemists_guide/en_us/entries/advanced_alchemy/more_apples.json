@@ -1,0 +1,25 @@
+{
+    "name": "More Apples!",
+    "icon": "void_alchemy:apple_of_strength",
+    "category": "advanced_alchemy",
+    "sortnum": 3,
+    "pages": [
+	{
+	    "type": "text",
+	    "text": "By infusing either a $(d)Glimmer of Hope$() or $(d)Supernatrual Strength$() into an apple, the power that those bits of power hold grows twofold, resulting in much more practical application of such power."
+
+	},
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:apple_of_strength",
+	    "text": "The $(bold)$(6)Apple of Strength$() holds much more power than the $(d)Supernatural Strength$(), anyone who has one of these on hand should be considered an extraordinary danger to others."
+
+	},
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:apple_of_light",
+	    "text": "The $(bold)$(6)Apple of Light$() holds much more power than the $(d)Glimmer of Hope$(), making great use for either desperate escapes or quick mining."
+
+	}
+    ]
+}

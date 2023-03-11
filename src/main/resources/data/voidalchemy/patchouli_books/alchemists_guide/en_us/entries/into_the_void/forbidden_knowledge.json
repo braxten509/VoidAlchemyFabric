@@ -1,0 +1,18 @@
+{
+    "name": "Forbidden Knowledge",
+    "icon": "void_alchemy:ominous_book",
+    "category": "into_the_void",
+    "sortnum": 1,
+    "pages": [
+	{
+            "type": "text",
+            "text": "To truly understand and utilize the power of the $(bold)Void$(), one must be able to have a greater knowledge of it. This is achieved by the $(bold)$(6)Ominous Book$(). This book is created by the power of the void and is used to write down notes on it further, as well as an even greater power later..."
+        },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:ominous_book",
+	    "text": "A book used to store various notes on the void and things relating to alchemy. A great power lies within..."
+
+	}
+    ]
+}

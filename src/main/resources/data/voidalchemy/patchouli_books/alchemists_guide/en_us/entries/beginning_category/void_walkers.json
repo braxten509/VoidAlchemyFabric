@@ -1,0 +1,24 @@
+{
+    "name": "Void Walkers",
+    "icon": "void_alchemy:void_cube",
+    "category": "beginning_category",
+    "sortnum": 6,
+    "pages": [
+	{
+	    "type": "entity",
+		"entity": "void_alchemy:void_walker_entity",
+	    "text": "$(bold)$(6)Void Walkers$() are students to the Void, delving deep into it as an attempt to grasp its true power..."
+	},
+	{
+            "type": "spotlight",
+			"item": "void_alchemy:void_cube",
+            "text": "These mysterious cubes can be crafted into a powerful weapon by tainting an iron sword... They can be found by killing $(d)Void Walkers$()"
+    },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:tainted_blade",
+	    "text": "A sword with other worldly powers..."
+
+	}
+    ]
+}

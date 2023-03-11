@@ -1,0 +1,18 @@
+{
+    "name": "Different Paths",
+    "icon": "void_alchemy:universe_sword",
+    "category": "powerful_weapons",
+    "sortnum": 1,
+    "pages": [
+	{
+            "type": "text",
+            "text": "There are three different paths you can take as an Alchemist, the way of the $(bold)$(6)Crusader$(), the way of the $(bold)$(6)Neutralist$(), or the way of the $(bold)$(6)Void Walker$(). If you wish to be neutral and not have a side, then the $(d)Neutralist$() is the way for you, though it is the weakest of the three ways."
+        },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:universe_sword",
+	    "text": "The $(bold)$(6)Sword of the Universe$() is for the $(d)Neutralists$(). It is the weakest of the weapons, though it has no side."
+
+	}
+    ]
+}

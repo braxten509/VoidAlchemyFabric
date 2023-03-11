@@ -7,6 +7,6 @@ import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.World;
 
 public class ModDimension {
-    public static final RegistryKey<World> VOID = RegistryKey.of(Registry.WORLD_KEY, new Identifier("void"));
+    public static final RegistryKey<World> VOID = RegistryKey.of(Registry.WORLD_KEY, new Identifier("voidalchemy", "void"));
 
 }

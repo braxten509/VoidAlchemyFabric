@@ -3,8 +3,10 @@ package net.braxtenchenay.voidalchemy.item;
 import net.braxtenchenay.voidalchemy.VoidAlchemy;
 import net.braxtenchenay.voidalchemy.block.ModBlocks;
 import net.braxtenchenay.voidalchemy.item.custom.GlimmerOfHopeItem;
+import net.braxtenchenay.voidalchemy.item.custom.OminousBookItem;
 import net.braxtenchenay.voidalchemy.item.custom.SupernaturalStrengthItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.block.Block;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -33,6 +35,12 @@ public class ModItems {
 
     public static final Item BAG_OF_MIRCANTERS_DUST = registerItem("bag_of_mircanters_dust",
             new Item(new FabricItemSettings().group(ModItemGroup.VOID_DUST)));
+
+    public static final Item ALCHEMISTS_GUIDE = registerItem("alchemists_guide",
+            new Item(new FabricItemSettings()));
+
+    public static final Item OMINOUS_BOOK = registerItem("ominous_book",
+            new OminousBookItem(new FabricItemSettings().group(ModItemGroup.VOID_DUST)));
 
     public static final Item SUPERNATURAL_STRENGTH = registerItem("supernatural_strength",
             new SupernaturalStrengthItem(new FabricItemSettings().group(ModItemGroup.VOID_DUST)));

@@ -1,0 +1,34 @@
+{
+    "name": "Touching the Void",
+    "icon": "void_alchemy:apprentices_stone",
+    "category": "beginning_category",
+    "sortnum": 5,
+    "pages": [
+	{
+	    "type": "text",
+	    "text": "The downfall of the Equivalators was the universe, the void, as they attempted to break the laws of nature. The modern alchemists (who I will now refer to as $(bold)$(6)Void Alchemists$()) utilize the power of the void itself instead of going against its ways. This allows for wonderous works, though delving into such emptiness has its sacrifices..."
+	},
+	{
+            "type": "text",
+            "text": "While your knowledge and power is still growing, it is good to start off using the power of the void in a simple way, with the $(bold)$(6)Apprentice's Stone$(). You can charge this with $(d)Zorumite Weapons$(), since they draw power from the void. Once fully charged, right click to create $(bold)$(6)Void Dust$()."
+        },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:apprentices_stone",
+	    "text": "This stone can be charged with $(bold)$(6)Void Energy$(), which can then be used to create $(d)Void Dust$()."
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:bag_of_void_dust",
+	    "text": "$(d)Void Dust$() can be crafted into a bag for later uses."
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:void_block",
+	    "text": "$(d)Void Dust$() can also be crafted into a $(bold)$(6)Void Block$(), of which is fairly tough in comparision to stone. This can be used for later uses..."
+
+	}
+    ]
+}

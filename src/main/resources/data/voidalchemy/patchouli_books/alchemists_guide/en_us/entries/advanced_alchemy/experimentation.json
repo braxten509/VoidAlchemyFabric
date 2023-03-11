@@ -1,0 +1,29 @@
+{
+    "name": "Experimentation",
+    "icon": "void_alchemy:prototype_block",
+    "category": "advanced_alchemy",
+    "sortnum": 5,
+    "pages": [
+	{
+	    "type": "text",
+	    "text": "To truly gain the full power of a $(bold)Void Alchemist$(), one must completely understand its powers. While one may have a decent understanding, it must be a complete one for full effect. And such requires experimentation, beginning with a prototype."
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:prototype_block",
+	    "text": "The $(bold)$(6)Prototype$() block will be the basis for this experiment, and it is going to be a good many experiments."
+
+	},
+	{
+	    "type": "text",
+	    "text": "To begin the experimentation process, place the $(d)Prototype$() onto the ground. Once there, there are five different things one could try applying:$(li)Bag of Alchemical Dust$(li)Bag of Arcamirus Dust$(li)Bag of Ethereal Dust$(li)Bag of Mircanter's Dust$(li)Bag of Void Dust"
+
+	},
+	{
+	    "type": "text",
+	    "text": "Chose a bag of dust, and start experimenting, see what works and what doesn't! For each stage you pass, you will advance to the next block. There are 4 stages total, including the $(d)Prototype$(). If you fail, you must start over, but if you succeed, you will know the pattern to a great reward!"
+
+	}
+    ]
+}

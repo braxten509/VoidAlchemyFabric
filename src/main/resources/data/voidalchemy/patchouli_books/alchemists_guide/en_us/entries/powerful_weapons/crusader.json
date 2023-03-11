@@ -1,0 +1,25 @@
+{
+    "name": "Path of the Crusader",
+    "icon": "void_alchemy:crusaders_blade",
+    "category": "powerful_weapons",
+    "sortnum": 2,
+    "pages": [
+	{
+            "type": "text",
+            "text": "The one who choses the path of the $(d)Crusader$() wishes to protect others and fight for the things that are right and good. These alchemists are considered the defenders of the people. To create such a powerful weapon, three different parts must be made and combined."
+        },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:crusaders_sword_handel",
+	    "recipe2": "void_alchemy:crusaders_sword_blade",
+	    "text": ""
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:crusaders_blade",
+	    "text": "The Great Weapon of all the Crusaders, who stand to protect those who matter most to them, and all those that surround them that are good."
+
+	}
+    ]
+}

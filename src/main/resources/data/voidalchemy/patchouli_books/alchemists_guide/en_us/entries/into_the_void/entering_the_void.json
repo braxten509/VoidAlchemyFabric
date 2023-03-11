@@ -1,0 +1,21 @@
+{
+    "name": "Entering the Void",
+    "icon": "void_alchemy:void_block",
+    "category": "into_the_void",
+    "sortnum": 3,
+    "pages": [
+	{
+            "type": "text",
+            "text": "To actually go into the $(bold)Void$(), one must have a proper understanding of several things. Research things that represent these words:$(li)Greed$(br)$(li)Emptiness$(br)$(li)Feeling of being Lost$(br)$(li)Fear$(br)$(br)(If you need hints or don't like puzzles, go to the last page of this section.)"
+        },
+	{
+            "type": "spotlight",
+	    "item": "void_alchemy:ominous_book",
+            "text": "Once successful, you can right-click on your $(d)Ominous Book$() to teleport into the $(bold)Void$(). Be wary, great dangers lie ahead..."
+        },
+	{   
+	    "type": "text",
+	    "text": "Hints:$(br)$(li)For Greed, villagers tend to be selfish...$(li)For Lost, the answer is in the Nether$(li)For Emptiness, it's a block of the void (from this mod)$(li)For fear, a certain carved block has a frightful glare to it..."
+	}
+    ]
+}

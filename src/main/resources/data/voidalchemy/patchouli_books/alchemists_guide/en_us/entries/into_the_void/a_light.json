@@ -1,0 +1,30 @@
+{
+    "name": "A Light in the Darkness",
+    "icon": "void_alchemy:void_light_block",
+    "category": "into_the_void",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Before this present time, there were alchemists of great power called the $(bold)$(6)Equivalators$(). These alchemists used a method called $(bold)$(6)Equivalent Exchange$(), wherein they assumed that if different items had the same fundamental values, they could be converted to one another. The problem with this take on alchemy is that it is unbalanced, as though the fundamental values may be the"
+        },
+	{
+            "type": "text",
+            "text": "Though the $(bold)Void$() is a place of absolute emptiness and hopelessness, there is always a $(a)Light in the Darkness$(). If one were to search throughout the dimension of the void, sometimes traveling far and wide, or sometimes simply looking at their immediate surroundsings, these lights may be found..."
+        },
+	{
+            "type": "spotlight",
+	    "item": "void_alchemy:void_light_block",
+            "text": "These are the $(bold)$(6)Void Lights$(), they can be found randomly throughout the $(bold)Void$(). These are the hopes that lie within the greatest darkness, their light never dimming, even admist the greatest sorrows. No one is sure how they were formed. Some say it is by the hopes of the children, others say"
+        },
+	{
+            "type": "text",
+            "text": "that even if all else in the universe were lost, the lights would still be there, for they are a fundamental block of the univere. No one is sure, it is all speculation and theories. When mined they drop $(bold)$(6)Mircanter's Dust$(), of which can be used for various things, one of which being crafted into a bag and then used on a $(a)Forlorn Stone$()."
+        },
+	{
+            "type": "crafting",
+	    "recipe": "void_alchemy:bag_of_mircanters_dust",
+            "text": "Can be used on $(d)Forlorn Stones$()."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Ethereal Dust",
+    "icon": "void_alchemy:ethereal_dust",
+    "category": "advanced_alchemy",
+    "sortnum": 2,
+    "pages": [
+	{
+            "type": "text",
+            "text": "The End is a place full of oddities. While some say it is truly the end, others say that it is just the beginning. It is a name of contradicitons. Strange creatures lie within, with strange, otherworldly properties. Within the endstone, a manifestation of those very properties breaks into the cracks of the rock, and shows itself. Though it does not happen commonly."
+        },
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:infused_end_stone_block",
+	    "text": "The $(bold)$(6)Infused End Stone$() is what holds this ethereal essence. It's formation is even stranger than that of $(d)Infused Netherrack$(), as while in the Nether there is anger and hate, and the $(bold)Void$() sorrow and emptiness, in the End, there is no defined feeling or emotion to manifest... Perhaps this would change the course of all the previous theories..."
+
+	},
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:ethereal_dust",
+	    "text": "The $(bold)$(6)Ethereal Dust$() is what drops from the $(d)Infused End Stone$()."
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:bag_of_ethereal_dust",
+	    "text": "The $(d)Ethereal Dust$() can be crafted into a bag for later use."
+
+	}
+    ]
+}

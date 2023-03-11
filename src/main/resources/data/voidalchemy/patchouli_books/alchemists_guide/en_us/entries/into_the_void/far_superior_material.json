@@ -1,0 +1,37 @@
+{
+    "name": "Far Superior Material",
+    "icon": "void_alchemy:strange_sword",
+    "category": "into_the_void",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(d)Strange Zorumite$() weapons are the same as Zorumite except they have twice the durability, greater efficiency and damage, as well as that when you critical hit an entity, it will now also give you a short period of $(d)speed$()."
+        },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:strange_sword",
+	    "text": "Its strength is similar to diamond, though with improved stats, but less durability."
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:strange_axe",
+	    "text": "Its strength is similar to diamond, though with improved stats, but less durability."
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:strange_dagger",
+	    "text": "Its strength is similar to zorumite, though with improved stats, but less durability."
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:strange_hammer",
+	    "text": "Its strength is similar to zorumite, though with improved stats, but less durability."
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:strange_lantern_block",
+	    "text": "Lamps can also be crafted with $(d)Strange Zorumite$(). They give off an otherworldly glow..."
+	}
+    ]
+}

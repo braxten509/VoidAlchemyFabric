@@ -1,0 +1,23 @@
+{
+    "name": "Stone Sticks & Peppers",
+    "icon": "void_alchemy:stone_stick",
+    "category": "beginning_category",
+    "sortnum": 2,
+    "pages": [
+	{
+            "type": "text",
+            "text": "The wooden sticks that are normally used in tools are to fragile and weak to hold to the superior $(d)Zorumite$() material, so a new type of handel had to be created. Though it would seem that stone would break much faster than wood due to its stiffness, the $(d)Zorumite$() seems to have a curious bond with the stone, making it more durable than before..."
+        },
+	{
+	    "type": "crafting",
+	    "text": "The handel for all $(d)Zorumite$() tools and weapons.",
+	    "recipe": "void_alchemy:stone_stick"
+
+	},
+	{
+            "type": "spotlight",
+	    "item": "void_alchemy:gabe_pepper",
+            "text": "There also seems to be a mysterious pepper, called a $(bold)$(6)Gabe Pepper$(), though its whereabouts and uses are currently unknown..."
+        }
+    ]
+}

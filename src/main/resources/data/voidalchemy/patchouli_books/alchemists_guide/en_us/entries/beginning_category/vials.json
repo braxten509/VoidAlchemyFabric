@@ -1,0 +1,29 @@
+{
+    "name": "Vials",
+    "icon": "void_alchemy:empty_vial",
+    "category": "beginning_category",
+    "sortnum": 4,
+    "pages": [
+	{
+	    "type": "text",
+	    "text": "$(bold)$(6)Liquid Zorumite$() is of great use to alchemists, as $(d)Zorumite$() in its fluid form has the ability to transform blocks into other blocks! It can be obtained by placing a $(d)Zorumite$() of any sort on the ground and lighting it with flint and steel."
+	},
+	{
+            "type": "crafting",
+	    "recipe": "void_alchemy:empty_vial",
+            "text": "These vials can be used to hold any type of $(d)Liquid Zorumite$(). This filled vial can then be applied to different blocks to transform them."
+        },
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:vial_of_zorumite",
+	    "text": "This can be used on: "
+
+	},
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:vial_of_strange_zorumite",
+	    "text": "This can be used on: "
+
+	}
+    ]
+}

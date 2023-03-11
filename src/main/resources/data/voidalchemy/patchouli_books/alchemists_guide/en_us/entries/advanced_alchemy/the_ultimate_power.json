@@ -1,0 +1,20 @@
+{
+    "name": "Ultimate Power",
+    "icon": "void_alchemy:universe_dust",
+    "category": "advanced_alchemy",
+    "sortnum": 6,
+    "pages": [
+	{
+	    "type": "spotlight",
+		"item": "void_alchemy:universe_dust",
+	    "text": "You have achieved it! You have created the most powerful thing in the universe! It is in fact, a piece of the universe itself! It shimmers like the night sky, though it is quite useless by itself. To actually utilize this power, it must be combined with other powers..."
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:essence_of_the_universe",
+	    "text": "The $(bold)$(6)Essence of the Universe$() is what truly allows a $(bold)Void Alchemist$() such wonderous power! There are several weapons and armors that can be created with this, of which will be explained in the next section."
+
+	}
+    ]
+}

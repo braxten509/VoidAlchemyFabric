@@ -1,0 +1,31 @@
+{
+    "name": "Path of the Seeker",
+    "icon": "void_alchemy:seekers_blade",
+    "category": "powerful_weapons",
+    "sortnum": 3,
+    "pages": [
+	{
+            "type": "text",
+            "text": "The one who choses the path of the $(d)Seeker$() seeks the truth, at all costs. They may be proclaimed as either extremely selfless, selfish, or both. They work by the passion of their hearts alone. To create such a powerful weapon, three different parts must be made and combined."
+        },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:seekers_sword_handel",
+	    "recipe2": "void_alchemy:seekers_sword_blade",
+	    "text": ""
+
+	},
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:infused_ender_pearl",
+	    "recipe2": "void_alchemy:seekers_blade",
+	    "text": ""
+
+	},
+	{
+	    "type": "text",
+	    "text": "The $(d)Seeker's$() goal is to discover that which is true, with no concern for their own life or the lives of others. It is a dangerous path to take, but it can also be an extremely rewarding one..."
+
+	}
+    ]
+}

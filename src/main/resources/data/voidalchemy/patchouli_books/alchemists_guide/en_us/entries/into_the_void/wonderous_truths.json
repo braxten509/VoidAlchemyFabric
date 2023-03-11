@@ -1,0 +1,35 @@
+{
+    "name": "Wonderous Truths",
+    "icon": "void_alchemy:arcamirus_dust",
+    "category": "into_the_void",
+    "sortnum": 4,
+    "pages": [
+	{
+            "type": "text",
+            "text": "Some say that the $(bold)Void$() is the ultimate holder of truth, as all things of the universe are from the void, from this utter emptiness. This dimension is more of a dream than reality, for one cannot truly enter into nothingness. Even just the imaginings of the mind, mixed with the power of the $(Bold)Void$(), can be incredibly powerful. Be wary, for sorry will try to drag one down into its"
+        },
+	{
+            "type": "text",
+            "text": "utmost depths. But this dimension of reality, though not the exact manifestation of the void, is the truest in a perceivable sense. Within this dimension, there are hidden wonders beneath the darkness that encapsulates the surface."
+        },
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:arcamirus_ore_block",
+	    "text": "If one were to dig down, there is a special ore called $(bold)$(6)Arcamirus Ore$(), arcamirus meaning mysterious and wonderful. The reason it is called such is  because it is exactly that. No one really knows what it is or what creates it."
+
+	},
+	{
+            "type": "text",
+            "text": "Some say that it is the souls of the ancient alchemists who have been absorbed into the universe, the $(bold)Void$() itself. Others say it is fragments of power that the void holds being condensed into rock. No theory has any basis, just assumptions. The second part of the defenition of $(d)arcamirus$() is wonderous, of which is defined by what this dust can accomplish. If a bag of such dust is used on $(d)gold ore$(), it will create a material slightly more powerful"
+        },
+	{
+            "type": "text",
+            "text": "than zorumite called $(bold)$(6)Strange Zorumite$(), it is slightly more powerful than diamond as well. $(d)Strange Zorumite$() can be used to make the same weapons as $(d)Zorumite$(), with enhanced abilities."
+        },
+	{
+            "type": "crafting",
+	    "recipe": "void_alchemy:bag_of_arcamirus_dust",
+            "text": "Can be used on $(d)gold ore$(), as well as potentially other blocks, which can be found by using the $(d)Speculo Inanis$()."
+        }
+    ]
+}

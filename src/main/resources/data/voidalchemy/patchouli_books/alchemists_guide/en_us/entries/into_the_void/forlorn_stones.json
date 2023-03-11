@@ -1,0 +1,18 @@
+{
+    "name": "Forlorn Stones",
+    "icon": "void_alchemy:forlorn_stone_block",
+    "category": "into_the_void",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "spotlight",
+	    "item": "void_alchemy:forlorn_stone_block",
+            "text": "When mining in the $(bold)Void$(), one may come across a $(bold)$(6)Forlorn Stone$(). These stones are the children of all the darkness and hopelessness that the void is, having a never ending suffering within them. Some say that by using a $(d)Bag of Mircanter's Dust$(), one could lighten their burden..."
+        },
+	{
+            "type": "spotlight",
+	    "item": "void_alchemy:glimmer_of_hope",
+            "text": "When the $(d)Forlorn Stone's$() burden is lifted, when the stone is mined, it will give you a $(bold)$(6)Glimmer of Hope$(). If right-clicked, it will be consumed and give you powerful effects for a few minutes, though it would be wiser to save it for later purposes..."
+        }
+    ]
+}

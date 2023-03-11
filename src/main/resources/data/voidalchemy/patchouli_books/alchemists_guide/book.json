@@ -1,0 +1,10 @@
+{
+	"name": "item.voidalchemy.alchemists_guide",
+	"landing_text": "Most people don't understand the world. They either see the complications, the chaos, and the disorder. Very see the world for what it is, a system of defined order and place, except that is, for the $(6)$(bold)Alchemists$().",
+	"creative_tab": "voidalchemy.void_dust",
+	"model": "voidalchemy:alchemists_guide",
+	"show_progress": false,
+	"pause_game": false,
+	"show_toasts": false,
+	"version": 1
+}

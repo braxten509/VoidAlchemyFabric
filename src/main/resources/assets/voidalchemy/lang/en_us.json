@@ -10,7 +10,8 @@
   "item.voidalchemy.glimmer_of_hope": "§eGlimmer of Hope",
   "item.voidalchemy.gabe_pepper": "Gabe Pepper",
   "item.voidalchemy.gabe_pepper_seeds": "Gabe Pepper Seeds",
-  "item.voidalchemy.gabe_pepper_crop": "Gabe Pepper Crop",
+  "item.voidalchemy.ominous_book": "Ominous Book",
+  "item.voidalchemy.alchemists_guide": "Alchemist's Guide",
 
   "block.voidalchemy.alchemical_ore": "Alchemical Ore",
   "block.voidalchemy.arcamirus_ore": "Arcamirus Ore",
@@ -21,6 +22,7 @@
   "block.voidalchemy.failed_prototype": "Failed Prototype",
   "block.voidalchemy.void": "Void",
   "block.voidalchemy.void_light": "Void Light",
+  "block.voidalchemy.gabe_pepper_crop": "Gabe Pepper Crop",
 
   "itemGroup.voidalchemy.void_dust": "Void Alchemy"
 }

@@ -1,0 +1,24 @@
+{
+    "name": "A-Nether Power",
+    "icon": "void_alchemy:supernatural_strength",
+    "category": "advanced_alchemy",
+    "sortnum": 1,
+    "pages": [
+	{
+            "type": "text",
+            "text": "The nether is a place of chaos, lost souls, fire, and anger. Its powers are not one to be meddled with, as in doing so one could cause its lust to grow, and then it would seep into the Overworld, destroying all that we know. Within the crevices of the Nether, there are bits of that extreme power I just mentioned, and such can be cultivated for an alchemist's use."
+        },
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:infused_netherrack_block",
+	    "text": "The $(bold)$(6)Infused Netherrack Block$() is what holds this small glimpse of tremendous power. Some speculators say that the Nether's hate and anger, just like the void lights do with misery and sorrow, concentrate into one place at times, creating this infused block. Such is only speculation and has no tangible evidence behind it."
+
+	},
+	{
+	    "type": "spotlight",
+	    "item": "void_alchemy:supernatural_strength",
+	    "text": "The $(bold)$(6)Supernatural Strength$() is what drops from the $(d)Infused Netherrack$(). If right-clicked, they give the user a glimpse of supernatural powers by giving them twice the health and strength as well, though it only lasts a few minutes. One of greater wisdom would consider such use a waste, for it can be cultivated into so much more..."
+
+	}
+    ]
+}

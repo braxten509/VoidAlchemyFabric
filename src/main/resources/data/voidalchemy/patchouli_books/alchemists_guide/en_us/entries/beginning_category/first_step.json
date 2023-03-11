@@ -1,0 +1,38 @@
+{
+	"category": "voidalchemy:beginning_category",
+    "name": "The First Step",
+    "icon": "voidalchemy:alchemical_dust",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Before this present time, there were alchemists of great power called the $(bold)$(6)Equivalators$(). These alchemists used a method called $(bold)$(6)Equivalent Exchange$(), wherein they assumed that if different items had the same fundamental values, they could be converted to one another. The problem with this take on alchemy is that it is unbalanced, as though the fundamental values may be the"
+        },
+	{
+            "type": "patchouli:text",
+            "text": "same, heat is generated, thus changing those values in the conversion process. Though these ancient alchemists were extraordinarly powerful, in the end, the unbalance of their methods caused them and their power to be consumed back into the universe, thereby restoring the balance."
+        },
+	{
+	    "type": "patchouli:text",
+	    "text": "When the alchemists were absorbed, remnants of their power was left behind. The remnants are called $(bold)$(6)Alchemical Dust$(), and thereby the whole process of alchemy did not have to be completely begun afresh, but with knowledge that was already known. One simply had to find out how to use these scraps of power, and then the secrets to wonderous works could be beheld once more,"
+
+	},
+	{
+	    "type": "patchouli:text",
+	    "text": "but this time in a way that was balanced and submissive to the powers of the universe, the $(bold)Void$() I speak of. The very first step in the alchemical process is to collect four pieces of $(bold)$(6)Alchemical Dust$() and put them together, to create a $(bold)$(6)Bag of Alchemical Dust$()."
+
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "text": "Next, apply said bag onto a block of $(d)Iron Ore$(). This will create $(bold)$(6)Zorumite Ore$(), of which can be smelted into $(bold)$(6)Zorumite$().",
+	    "recipe": "voidalchemy:bag_of_alchemical_dust"
+
+	},
+	{
+	    "type": "patchouli:spotlight",
+	    "item": "voidalchemy:alchemical_ore",
+	    "text": "The $(bold)$(6)Alchemical Ore$() that holds the power of the ancient alchemists."
+
+	}
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Researching",
+    "icon": "void_alchemy:speculo_inanis",
+    "category": "into_the_void",
+    "sortnum": 2,
+    "pages": [
+	{
+            "type": "text",
+            "text": "To actually take notes on things of importance surrounding you, a device must be made to be able to give you further knowledge on your surroundings. The Void Alchemists have invented the $(bold)$(6)Speculo Inanis$() to do just that. You put your eyes up to an object, and the $(bold)Void$() reveals greater meaning and understanding."
+        },
+	{
+	    "type": "crafting",
+	    "recipe": "void_alchemy:speculo_inanis",
+	    "text": "A tool for researching blocks around you, can be from $(d)Void Alchemy$() or $(d)Vanilla Minecraft$()."
+
+	}
+    ]
+}

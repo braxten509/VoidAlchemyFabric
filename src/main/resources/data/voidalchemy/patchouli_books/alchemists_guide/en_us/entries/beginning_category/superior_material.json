@@ -1,0 +1,46 @@
+{
+    "name": "Superior Material",
+    "icon": "void_alchemy:zorumite",
+    "category": "beginning_category",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(d)Zorumite$() that you have created is far superior to the likes of the iron. It has more than twice the durability, more damage, greater efficiency, and high enchantability. Though it is not as powerful as diamond, it can still mine obsidian. This material is also more flexible when heated, and therefore different weapons can be created from it. All the normal tools can also be made."
+        },
+	{
+            "type": "text",
+            "text": "These weapons also have speical abilities. When you $(d)critical hit$() with a $(d)zorumite weapon$(), it will give you a small period of jump boost. It also generates $(bold)Void Energy$(), which will be explained later. The weapons also give you some health back after a critical hit, more or less depending on the weapon in play."
+        },
+	{
+	    "type": "crafting",
+	    "text": "A sword similar to iron, though with improved stats.",
+	    "recipe": "void_alchemy:zorumite_sword"
+
+	},
+	{
+	    "type": "crafting",
+	    "text": "An axe similar to iron, though with improved stats.",
+	    "recipe": "void_alchemy:zorumite_axe"
+
+	},
+	{
+	    "type": "crafting",
+	    "text": "This new weapon functions as a sword with greater speed but less damage.",
+	    "recipe": "void_alchemy:zorumite_dagger"
+
+	},
+	{
+	    "type": "crafting",
+	    "text": "This new weapon functions as an axe with slower speed and greater damage. It can also mine rock and ores.",
+	    "recipe": "void_alchemy:zorumite_hammer"
+
+	},
+	{
+	    "type": "crafting",
+	    "text": "$(d)Zorumite$() can also be made into a lantern with the use of glowstone.",
+	    "recipe": "void_alchemy:zorumite_lantern_block"
+
+	}
+    ]
+}

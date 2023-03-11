@@ -1,0 +1,16 @@
+{
+    "name": "Spirit's Treasure",
+    "icon": "minecraft:enchanted_book",
+    "category": "advanced_alchemy",
+    "sortnum": 8,
+    "pages": [
+	{
+	    "type": "spotlight",
+	    "item": "minecraft:enchanted_book",
+	    "text": "The $(bold)$(6)Spirit's Treasure$() enchantment calls upon the spirits to aid you randomly as you mine. This is a treasure enchantment, and thus, cannot be made in an enchanting table. This enchantment only works if you are mining $(d)stone$()."
+
+	}
+    ]
+}
+
+

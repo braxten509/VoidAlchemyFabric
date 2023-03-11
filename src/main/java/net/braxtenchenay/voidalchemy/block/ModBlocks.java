@@ -14,6 +14,7 @@ import net.minecraft.block.OreBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
@@ -30,13 +31,13 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.VOID_DUST);
 
     public static final Block DEEPSLATE_ARCAMIRUS_ORE = registerBlock("deepslate_arcamirus_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.VOID_DUST);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().luminance(5), UniformIntProvider.create(3, 7)), ModItemGroup.VOID_DUST);
 
     public static final Block VOID = registerBlock("void",
             new Block(FabricBlockSettings.of(Material.STONE).strength(8f).requiresTool()), ModItemGroup.VOID_DUST);
 
     public static final Block VOID_LIGHT = registerBlock("void_light",
-            new Block(FabricBlockSettings.of(Material.GLASS).strength(2f).luminance(15)), ModItemGroup.VOID_DUST);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2f).luminance(15).sounds(BlockSoundGroup.AMETHYST_BLOCK)), ModItemGroup.VOID_DUST);
 
     public static final Block FORNLORN_STONE = registerBlock("forlorn_stone",
             new ForlornStoneBlock(FabricBlockSettings.of(Material.STONE).strength(15f).requiresTool()), ModItemGroup.VOID_DUST);
