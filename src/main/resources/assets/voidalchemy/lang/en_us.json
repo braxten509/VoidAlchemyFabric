@@ -19,6 +19,8 @@
   "block.voidalchemy.forlorn_stone": "Forlorn Stone",
   "block.voidalchemy.enlightened_stone": "Enlightened Stone",
   "block.voidalchemy.failed_prototype": "Failed Prototype",
+  "block.voidalchemy.void": "Void",
+  "block.voidalchemy.void_light": "Void Light",
 
   "itemGroup.voidalchemy.void_dust": "Void Alchemy"
 }

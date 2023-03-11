@@ -3,6 +3,7 @@ package net.braxtenchenay.voidalchemy.world.feature;
 import net.braxtenchenay.voidalchemy.VoidAlchemy;
 import net.braxtenchenay.voidalchemy.block.ModBlocks;
 import net.minecraft.util.registry.RegistryEntry;
+import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.feature.*;
 
 import java.util.List;

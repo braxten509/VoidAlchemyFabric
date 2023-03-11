@@ -32,6 +32,12 @@ public class ModBlocks {
     public static final Block DEEPSLATE_ARCAMIRUS_ORE = registerBlock("deepslate_arcamirus_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.VOID_DUST);
 
+    public static final Block VOID = registerBlock("void",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(8f).requiresTool()), ModItemGroup.VOID_DUST);
+
+    public static final Block VOID_LIGHT = registerBlock("void_light",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(2f).luminance(15)), ModItemGroup.VOID_DUST);
+
     public static final Block FORNLORN_STONE = registerBlock("forlorn_stone",
             new ForlornStoneBlock(FabricBlockSettings.of(Material.STONE).strength(15f).requiresTool()), ModItemGroup.VOID_DUST);
 
